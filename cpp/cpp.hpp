@@ -9,9 +9,9 @@
 #ifndef GPL_LANGUAGE_CPP_CPP_HPP
 #define GPL_LANGUAGE_CPP_CPP_HPP
 
-#define gpl_cpplib_lang__              202006L
-#define gpl_cpplib_lang_cpp_version__  202006L
-#define gpl_cpplib_lang_cpp_compiler__ 202005L
+#define gpl_cpp_lang__              202006L
+#define gpl_cpp_lang_cpp_version__  202006L
+#define gpl_cpp_lang_cpp_compiler__ 202005L
 
 
 namespace gpl { // interface
