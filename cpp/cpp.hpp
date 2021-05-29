@@ -1,28 +1,24 @@
 
-// Copyright (c) 2020 Paul Raffer.
+// Copyright Paul Raffer 2020.
 // Distributed under the Boost Software License, Version 1.0.
-// (See accompanying file LICENSE_1_0.txt or copy at
+// (See accompanying file LICENSE or copy at
 // https://www.boost.org/LICENSE_1_0.txt)
 
 #if __cplusplus >= 201103L
 
-#ifndef RAFFER_LANGUAGE_CPP_CPP_HPP
-#define RAFFER_LANGUAGE_CPP_CPP_HPP
+#ifndef GPL_LANGUAGE_CPP_CPP_HPP
+#define GPL_LANGUAGE_CPP_CPP_HPP
 
-#define raffer_cpplib_lang__              202006L
-#define raffer_cpplib_lang_cpp_version__  202006L
-#define raffer_cpplib_lang_cpp_compiler__ 202005L
+#define gpl_cpplib_lang__              202006L
+#define gpl_cpplib_lang_cpp_version__  202006L
+#define gpl_cpplib_lang_cpp_compiler__ 202005L
 
 
-namespace raffer // interface
-{
-namespace lang
-{
-namespace cpp
-{
+namespace gpl { // interface
+namespace lang {
+namespace cpp {
 	
-enum class version : long
-{
+enum class version : long {
 	cpp20 = 202002L,
 	cpp17 = 201703L,
 	cpp14 = 201402L,
@@ -30,8 +26,7 @@ enum class version : long
 	cpp98 = 199711L,
 };
 
-enum class compiler
-{
+enum class compiler {
 	AMD_Optimizing_C_Cpp_Compiler,
 	Arm_Compiler_for_Linux,
 	CppBuilder_classic,
@@ -71,9 +66,9 @@ enum class compiler
 
 } // namespace cpp
 } // namespace lang
-} // namespace raffer
+} // namespace gpl
 
 
-#endif // RAFFER_LANGUAGE_CPP_CPP_HPP
+#endif // GPL_LANGUAGE_CPP_CPP_HPP
 
 #endif // __cplusplus >= 201103L
